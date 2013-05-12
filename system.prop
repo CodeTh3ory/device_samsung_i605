@@ -1,4 +1,3 @@
-windowsmgr.max_events_per_sec=512
 #
 # system.prop for SCH-I605
 #
@@ -22,6 +21,7 @@ persist.data_netmgrd_nint=16
 
 #
 # Needed to match behavior of stock rom
+#      D/PHONE: mDoesRilSendMultipleCallRing=false
 #
 ro.telephony.call_ring.multiple=0
 
@@ -50,6 +50,7 @@ persist.radio.snapshot_disabled=1
 
 # Default ECCList (Except USCC)
 ro.ril.ecclist=112,911,#911,*911
+
 
 # Fields For VM Heapsize
 dalvik.vm.heapsize=512m

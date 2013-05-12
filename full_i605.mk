@@ -22,7 +22,7 @@ $(call inherit-product, device/samsung/i605/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # product
-PRODUCT_NAME := codex_i605
+PRODUCT_NAME := axi0m_i605
 PRODUCT_DEVICE := i605
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
